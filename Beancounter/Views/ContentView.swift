@@ -52,13 +52,12 @@ struct ContentView: View {
         .onChange(of: selectedItem) { val in
             if selectedItem == 3 {
                 self.isPresenting = true
+                self.selectedItem = self.oldSelectedItem
             } else {
                 self.oldSelectedItem = val
             }
         }
-        .sheet(isPresented: $isPresenting, onDismiss: {
-            self.selectedItem = self.oldSelectedItem
-        }) {
+        .sheet(isPresented: $isPresenting) {
             Text("New transaction")
         }
     }
