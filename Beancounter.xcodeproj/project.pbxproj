@@ -13,6 +13,9 @@
 		99E3E99826D7FDE900B13674 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E3E99726D7FDE900B13674 /* Preview Assets.xcassets */; };
 		99E3E9A126D8011500B13674 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3E9A026D8011500B13674 /* BudgetView.swift */; };
 		99E3E9A326D8013D00B13674 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3E9A226D8013D00B13674 /* AccountsView.swift */; };
+		99E3E9A526D8085C00B13674 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3E9A426D8085C00B13674 /* ReportsView.swift */; };
+		99E3E9A726D8086400B13674 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3E9A626D8086400B13674 /* HelpView.swift */; };
+		99E3E9A926D8086E00B13674 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3E9A826D8086E00B13674 /* TransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		99E3E99926D7FDE900B13674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E3E9A026D8011500B13674 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
 		99E3E9A226D8013D00B13674 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		99E3E9A426D8085C00B13674 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		99E3E9A626D8086400B13674 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		99E3E9A826D8086E00B13674 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				99E3E99226D7FDE700B13674 /* ContentView.swift */,
 				99E3E9A026D8011500B13674 /* BudgetView.swift */,
 				99E3E9A226D8013D00B13674 /* AccountsView.swift */,
+				99E3E9A426D8085C00B13674 /* ReportsView.swift */,
+				99E3E9A626D8086400B13674 /* HelpView.swift */,
+				99E3E9A826D8086E00B13674 /* TransactionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E3E9A326D8013D00B13674 /* AccountsView.swift in Sources */,
+				99E3E9A726D8086400B13674 /* HelpView.swift in Sources */,
+				99E3E9A526D8085C00B13674 /* ReportsView.swift in Sources */,
 				99E3E99326D7FDE700B13674 /* ContentView.swift in Sources */,
 				99E3E9A126D8011500B13674 /* BudgetView.swift in Sources */,
+				99E3E9A926D8086E00B13674 /* TransactionView.swift in Sources */,
 				99E3E99126D7FDE700B13674 /* BeancounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

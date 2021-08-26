@@ -35,14 +35,14 @@ struct ContentView: View {
                 }
                 .tag(3)
             
-            Text("Reports go here")
+            ReportsView()
                 .tabItem {
                     Image(systemName: "chart.bar.xaxis")
                     Text("Reports")
                 }
                 .tag(4)
             
-            Text("Help goes here")
+            HelpView()
                 .tabItem {
                     Image(systemName: "bubble.left.and.bubble.right.fill")
                     Text("Help")
@@ -58,9 +58,10 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $isPresenting) {
-            Text("New transaction")
+            TransactionView()
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
